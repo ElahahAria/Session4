@@ -5,7 +5,7 @@ guesses = []
 
 for attempt in range(1, 10):
         try:
-            user_number = int(input(f"Attempt {attempt}:  your number: "))
+            user_number = int(input( "your number: "))
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
             continue
